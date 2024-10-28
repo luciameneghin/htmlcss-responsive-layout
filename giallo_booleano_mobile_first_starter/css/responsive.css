@@ -1,8 +1,42 @@
 /* Soluzione qui */
-@media screen (min-width:768px){
-
+@media (min-width: 768px) {
+  #topbar {
+  justify-content: flex-start;
+ }
+ main {
+  padding-top: 50px;
+ }
+ .recipe-origin {
+  display: inline-block;
+ }
+ .recipe-title {
+  width: 70%;
+  font-size: 1.5rem;
+ }
+ .recipe-rating {
+  width: 40%;
+  font-size: 1.3rem;
+ }
+ .btn {
+  width: calc(100% /5);
+ }
 }
 
-@media screen (min-width:992px){
-  
+@media (min-width: 992px) {
+  main {
+    padding-top: 120px;
+   }
+  .recipe-card {
+    display: flex;
+  }
+  .recipe-video {
+    width: 70vw;
+    height: 50vh;
+  }
+  .recipe-info {
+    width: 30vw;
+  }
+  .btn .label {
+    display: inline-block;
+  }
 }
