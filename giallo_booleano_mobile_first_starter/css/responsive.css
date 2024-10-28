@@ -11,32 +11,46 @@
  }
  .recipe-title {
   width: 70%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
  }
+
  .recipe-rating {
   width: 40%;
   font-size: 1.3rem;
  }
- .btn {
+ .social-networks .btn {
   width: calc(100% /5);
+ }
+ .ads {
+  display: block;
+ }
+ .presentation img {
+  float: left;
+  margin-right: 10px;
  }
 }
 
 @media (min-width: 992px) {
   main {
-    padding-top: 120px;
+    padding-top: 60px;
    }
   .recipe-card {
     display: flex;
   }
   .recipe-video {
     width: 70vw;
-    height: 50vh;
+    height: 100vh;
   }
   .recipe-info {
     width: 30vw;
   }
   .btn .label {
     display: inline-block;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
   }
 }
